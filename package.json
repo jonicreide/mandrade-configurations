@@ -1,5 +1,5 @@
 {
-  "name": "@mandrade/ts-config",
+  "name": "mandrade-ts-config",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
