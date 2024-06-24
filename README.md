@@ -6,7 +6,7 @@
 
 Add the rules to your `tsconfig.json`
 
-```javascript
+```json
 {
   "extends": "mandrade-ts-config",
   "compilerOptions": {
@@ -27,22 +27,52 @@ Then, install the rule package:
 
 And finally add the profile to your `.eslintrc` or `.eslintrc.json`:
 
-```javascript
+```json
 {
   "extends": "airbnb",
   "rules": {
-		// Your own rules here...
+    // Your own rules here...
   }
 }
 ```
 
 Don't forget to create a script in your pacakge.json to ensure the rules:
 
-```javascript
+```json
 {
 	"scripts": {
 		"lint": "eslint ."
 		"lint:fix": "eslint . --fix"
 	}
+}
+```
+
+## Prettier with Eslint
+
+Install the package:
+
+`npm i mandrade-prettier`
+
+Update your `eslint.config.js` to work with prettier:
+
+```json
+{
+  "extends": ["plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"]
+  }
+}
+```
+
+Create a script to format your code:
+
+```json
+{
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx --fix",
+    "format": "prettier --write ."
+  }
 }
 ```

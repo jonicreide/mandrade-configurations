@@ -1,0 +1,22 @@
+{
+  "name": "mandrade-prettier",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "repository": "git+https://github.com/jonicreide/mandrade-configurations.git"
+  },
+  "author": "Matheus Vinicius de Andrade",
+  "files": [
+    "eslint.yaml"
+  ],
+  "dependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.3.2"
+  },
+  "peerDependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.3.2"
+  }
+}
