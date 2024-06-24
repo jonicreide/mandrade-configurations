@@ -1,0 +1,17 @@
+{
+  "name": "mandrade-eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "repository": "git+https://github.com/jonicreide/mandrade-configurations.git"
+  },
+  "author": "Matheus Vinicius de Andrade",
+  "files": [
+    "eslint.yaml"
+  ],
+  "dependencies": {
+    "@eslint/js": "^9.5.0"
+  }
+}

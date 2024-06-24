@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "repository": "git+https://github.com/jonicreide/ts-config.git"
+    "repository": "git+https://github.com/jonicreide/mandrade-configurations.git"
   },
   "author": "Matheus Vinicius de Andrade",
   "files": [
