@@ -1,6 +1,6 @@
 {
   "name": "mandrade-eslint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "repository": "git+https://github.com/jonicreide/mandrade-configurations.git"
