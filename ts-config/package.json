@@ -1,8 +1,6 @@
 {
   "name": "mandrade-ts-config",
   "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "repository": "git+https://github.com/jonicreide/mandrade-configurations.git"

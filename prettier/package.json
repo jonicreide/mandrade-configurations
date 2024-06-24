@@ -7,7 +7,7 @@
   },
   "author": "Matheus Vinicius de Andrade",
   "files": [
-    "eslint.yaml"
+    ".prettierrc"
   ],
   "dependencies": {
     "eslint-config-prettier": "^9.1.0",
