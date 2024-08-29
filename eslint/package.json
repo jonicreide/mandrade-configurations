@@ -1,6 +1,6 @@
 {
   "name": "mandrade-eslint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "repository": "git+https://github.com/jonicreide/mandrade-configurations.git"
@@ -15,9 +15,9 @@
     "@typescript-eslint/parser": "^7.13.1"
   },
   "peerDependencies": {
-    "@eslint/js": "^9.5.0",
-    "@typescript-eslint/eslint-plugin": "^7.13.1",
-    "@typescript-eslint/parser": "^7.13.1",
+    "@eslint/js": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
     "eslint": "^8.0.0"
   }
 }

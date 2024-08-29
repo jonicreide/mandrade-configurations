@@ -40,10 +40,10 @@ Don't forget to create a script in your pacakge.json to ensure the rules:
 
 ```json
 {
-	"scripts": {
-		"lint": "eslint ."
-		"lint:fix": "eslint . --fix"
-	}
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  }
 }
 ```
 
